@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suiteName">
+    <test name="runAll">
+        <classes>
+            <class name="club.gemc.groups.GroupsOnClassTwo" />
+            <class name="club.gemc.groups.GroupsOnClassOne" />
+            <class name="club.gemc.groups.GroupsOnClass" />
+        </classes>
+    </test>
+
+    <test name="onlyRunStudent">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="club.gemc.groups.GroupsOnClassTwo" />
+            <class name="club.gemc.groups.GroupsOnClassOne" />
+            <class name="club.gemc.groups.GroupsOnClass" />
+        </classes>
+    </test>
+</suite>

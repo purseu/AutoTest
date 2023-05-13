@@ -1,0 +1,13 @@
+name: groupsOnClass
+tests:
+  - name: runAll
+    classes:
+      - club.gemc.groups.GroupsOnClassTwo
+      - club.gemc.groups.GroupsOnClassOne
+      - club.gemc.groups.GroupsOnClass
+  - name: runStudent
+    includedGroups: [ stu ]
+    classes:
+      - club.gemc.groups.GroupsOnClassTwo
+      - club.gemc.groups.GroupsOnClassOne
+      - club.gemc.groups.GroupsOnClass
